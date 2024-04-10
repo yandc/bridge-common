@@ -160,6 +160,8 @@ func GetChainName(id uint64) string {
 		return "XinFin"
 	case BENFEN:
 		return "Benfen"
+	case SEPOLIA:
+		return "Sepolia"
 
 	default:
 		return fmt.Sprintf("Unknown(%d)", id)
